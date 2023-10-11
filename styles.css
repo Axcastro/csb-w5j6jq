@@ -1,0 +1,77 @@
+/*global Stylings */
+html {
+  background-color: #ddd0c8;
+  scroll-behavior: smooth;
+}
+h1 {
+  color: #323232;
+}
+a {
+  color: #323232;
+}
+body {
+  max-width: 75%;
+  margin: auto;
+}
+
+/* navigation styling  ctrl+k+c will auto comment stuff*/
+
+nav {
+  border-bottom: 1px solid black;
+  justify-content: center;
+}
+#nav-items {
+  gap: 40px;
+  padding: 0px 40px;
+}
+
+/* Profile styling */
+
+#my-name {
+  margin-bottom: 0;
+}
+#description {
+  max-width: 500px;
+}
+#profile {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+#profile-picture {
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+/* Project Styling */
+
+#project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.project-card {
+  max-width: 400px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.project-card img {
+  widows: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.project-info {
+  padding: 10px 20px;
+}
+
+/* Skills styling */
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-description {
+  max-width: 50%;
+  text-align: right;
+}
